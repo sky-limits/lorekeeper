@@ -165,7 +165,8 @@ class CharacterLineageBlacklist extends Model
             ->whereNotIn('species_id', CharacterLineageBlacklist::getBlacklistSpecies())
             ->whereNotIn('suptype_id', CharacterLineageBlacklist::getBlacklistSubtypes())
             ->orderBy('slug')
-            ->pluck('slug', 'characters.id')
+            ->get()
+            ->pluck('full_name', 'id')
             ->toArray();
 
         return $query;

@@ -122,10 +122,10 @@ class CharacterLineage extends Model
      */
     public function getDisplayName($ancestor)
     {
-        if(isset($this[$ancestor.'_id']))
+        if(isset($this[$ancestor.'_id']) && $this[$ancestor])
             return $this[$ancestor]->getDisplayNameAttribute();
 
-        if(isset($this[$ancestor.'_name']))
+        if(isset($this[$ancestor.'_name']) && $this[$ancestor.'_name'])
             return $this[$ancestor.'_name'];
 
         return "Unknown";

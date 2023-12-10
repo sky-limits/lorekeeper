@@ -106,12 +106,19 @@
                         <a class="dropdown-item" href="{{ url('world') }}">
                             Encyclopedia
                         </a>
+
                         <a class="dropdown-item" href="{{ url('prompts/prompts') }}">
                             Prompts
                         </a>
+
                         <a class="dropdown-item" href="{{ url('shops') }}">
                             Shops
                         </a>
+
+			<a class="dropdown-item" href="{{ url('corruption') }}">
+                            Corruption Guide
+                        </a>
+
                     </div>
                 </li>
                 <li class="nav-item">

@@ -115,7 +115,7 @@
                             Shops
                         </a>
 
-			            <a class="dropdown-item" href="{{ url('info/corruption') }}">
+                        <a class="dropdown-item" href="{{ url('info/corruption') }}">
                             Corruption Guide
                         </a>
 
@@ -130,18 +130,18 @@
                             Lore
                         </a>
 
-                        <div class="dropdown-menu" aria-labelledby="inventoryDropdown">
-                            <a class="dropdown-item" href="{{ url('characters') }}">
-                                placeholder
+                        <div class="dropdown-menu" aria-labelledby="worldDropdown">
+                            <a class="dropdown-item" href="{{ url('info/journal') }}">
+                                Bug's Journal
                             </a>
-                            <a class="dropdown-item" href="{{ url('characters/myos') }}">
-                            placeholder
+                            <a class="dropdown-item" href="{{ url('info/corruption_lore') }}">
+                            Corruption
                             </a>
-                            <a class="dropdown-item" href="{{ url('inventory') }}">
-                            placeholder
+                            <a class="dropdown-item" href="{{ url('info/society') }}">
+                            Society
                             </a>
-                            <a class="dropdown-item" href="{{ url('bank') }}">
-                            placeholder
+                            <a class="dropdown-item" href="{{ url('info/subspecies') }}">
+                            Subspecies
                             </a>
                         </div>
                     </li>

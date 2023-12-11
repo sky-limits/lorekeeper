@@ -29,5 +29,10 @@ return [
         'text' => 'This page will contain credits for code, art, ect that has been used on your site!'
     ],
 
+    'corruption' => [
+        'title' => 'Corruption Guide',
+        'text' => 'How, why, and when to corrupt!'
+    ],
+
 
 ];

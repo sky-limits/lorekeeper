@@ -106,17 +106,45 @@
                         <a class="dropdown-item" href="{{ url('world') }}">
                             Encyclopedia
                         </a>
+
                         <a class="dropdown-item" href="{{ url('prompts/prompts') }}">
                             Prompts
                         </a>
+
                         <a class="dropdown-item" href="{{ url('shops') }}">
                             Shops
                         </a>
+
+			            <a class="dropdown-item" href="{{ url('info/corruption') }}">
+                            Corruption Guide
+                        </a>
+
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('gallery') }}">Gallery</a>
                 </li>
+
+                <li class="nav-item dropdown">
+                        <a id="inventoryDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            Lore
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="inventoryDropdown">
+                            <a class="dropdown-item" href="{{ url('characters') }}">
+                                placeholder
+                            </a>
+                            <a class="dropdown-item" href="{{ url('characters/myos') }}">
+                            placeholder
+                            </a>
+                            <a class="dropdown-item" href="{{ url('inventory') }}">
+                            placeholder
+                            </a>
+                            <a class="dropdown-item" href="{{ url('bank') }}">
+                            placeholder
+                            </a>
+                        </div>
+                    </li>
             </ul>
 
             <!-- Right Side Of Navbar -->

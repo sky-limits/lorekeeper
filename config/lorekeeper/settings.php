@@ -36,7 +36,7 @@ return [
     | site wherever the name needs to be displayed.
     |
     */
-    'site_name' => 'Lorekeeper',
+    'site_name' => 'Faunids',
 
     /*
     |--------------------------------------------------------------------------
@@ -48,7 +48,7 @@ return [
     | It is not, however, displayed on the site itself. This should be kept short and snappy!
     |
     */
-    'site_desc' => 'A Lorekeeper ARPG',
+    'site_desc' => 'welcome to deer hell!',
 
     /*
     |--------------------------------------------------------------------------
@@ -107,12 +107,12 @@ return [
     |
     */
     'character_codes' => '{category}-{number}',
-    'character_number_digits' => 3,
-    'character_pull_number' => 'all',
+    'character_number_digits' => 5,
+    'character_pull_number' => 'category',
 
     'reset_character_status_on_transfer' => 0,
     'reset_character_profile_on_transfer' => 0,
-    'clear_myo_slot_name_on_approval' => 0,
+    'clear_myo_slot_name_on_approval' => 1,
 
     /*
     |--------------------------------------------------------------------------
@@ -136,7 +136,7 @@ return [
     | 'masterlist_image_background' => 'png',
     |
     */
-    'watermark_masterlist_images' => 0,
+    'watermark_masterlist_images' => 1,
     'masterlist_image_dimension' => 0,
     'masterlist_image_format' => null,
     'masterlist_image_background' => '#ffffff',

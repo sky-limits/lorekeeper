@@ -126,7 +126,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                        <a id="inventoryDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        <a id="worldDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             Lore
                         </a>
 
@@ -142,6 +142,27 @@
                             </a>
                             <a class="dropdown-item" href="{{ url('info/subspecies') }}">
                             Subspecies
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a id="rulesDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            Rules & FAQs
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="rulesDropdown">
+                            <a class="dropdown-item" href="{{ url('info/rules_guidelines') }}">
+                            Custom Rules & Artist Guidelines
+                            </a>
+                            <a class="dropdown-item" href="{{ url('info/faq') }}">
+                            FAQ
+                            </a>
+                            <a class="dropdown-item" href="{{ url('info/ffaq') }}">
+                            Fawning FAQ
+                            </a>
+                            <a class="dropdown-item" href="{{ url('info/rules') }}">
+                            Species Rules
                             </a>
                         </div>
                     </li>

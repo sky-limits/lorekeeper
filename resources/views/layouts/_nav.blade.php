@@ -160,6 +160,9 @@
                             </a>
                             <a class="dropdown-item" href="{{ url('info/ffaq') }}">
                             Fawning FAQ
+                            <a class="dropdown-item" href="{{ url('info/afaq') }}">
+                            Aging FAQ
+                            </a>
                             </a>
                             <a class="dropdown-item" href="{{ url('info/rules') }}">
                             Species Rules
